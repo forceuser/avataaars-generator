@@ -70,7 +70,7 @@ app.get("/", (req, res) => {
 
 const server = http.createServer(app);
 
-server.listen(argv.port || process.env.PORT || 3000, argv.host || process.env.IP || "0.0.0.0", (req, res) => {
+server.listen(argv.port || process.env.PORT || 8080, argv.host || process.env.IP || "0.0.0.0", (req, res) => {
 	const addr = server.address();
 
 	console.log("Web server listening at", addr.address + ":" + addr.port);
