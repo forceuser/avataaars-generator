@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,15 +18,6 @@
   },
   "homepage": "https://github.com/forceuser/avataaars-generator#readme",
   "dependencies": {
-    "avataaars-pure-js": "github:forceuser/avataaars-pure-js",
-    "express": "^4.16.2",
-    "imagemagick": "^0.1.3",
-    "svg-to-png": "^3.1.2",
-    "svg2png": "^4.1.1",
-    "yargs": "^11.0.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.18.0"
+    "express": "^4.16.2"
   }
 }
